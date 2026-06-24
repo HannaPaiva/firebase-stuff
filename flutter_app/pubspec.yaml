@@ -1,0 +1,27 @@
+name: flutter_app
+description: "Flutter app for Firebase push notification registration."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.1.1
+  firebase_messaging: ^16.0.1
+  flutter_local_notifications: ^19.4.1
+  http: ^1.5.0
+  shared_preferences: ^2.5.3
+  uuid: ^4.5.1
+  package_info_plus: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

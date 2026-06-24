@@ -1,0 +1,18 @@
+[project]
+name = "firebase-push-backend"
+version = "0.1.0"
+description = "FastAPI backend for Firebase push notifications with DuckDB."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "duckdb",
+    "fastapi",
+    "firebase-admin",
+    "pydantic",
+    "python-dotenv",
+    "uvicorn[standard]",
+]
+
+[tool.uv]
+package = false
+
